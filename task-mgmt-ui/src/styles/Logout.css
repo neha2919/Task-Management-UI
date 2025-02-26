@@ -1,0 +1,18 @@
+.logout-button {
+    background-color: #d9534f; /* Bootstrap danger color */
+    color: white;
+    border: none;
+    padding: 3px 8px; /* Adjust padding for a tighter fit */
+    font-size: 12px; /* Small font size */
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background 0.3s ease-in-out;
+    width: auto; /* Ensures it only takes as much space as the text */
+    white-space: nowrap; /* Prevents the text from breaking */
+    display: inline-block; /* Keeps the button inline */
+    text-align: center; /* Centers text */
+}
+
+.logout-button:hover {
+    background-color: #c9302c; /* Darker red on hover */
+}

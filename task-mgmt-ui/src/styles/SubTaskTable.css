@@ -1,0 +1,53 @@
+.subtask-table-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subtask-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.subtask-table th, .subtask-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.subtask-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.status-completed {
+    color: green;
+    font-weight: bold;
+}
+
+.status-in_progress {
+    color: orange;
+    font-weight: bold;
+}
+
+.status-pending {
+    color: red;
+    font-weight: bold;
+}
+
+.no-subtasks {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}

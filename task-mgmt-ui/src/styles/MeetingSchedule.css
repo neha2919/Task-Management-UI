@@ -1,0 +1,17 @@
+.meeting-schedule {
+    width: 300px;
+    background: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .meeting-card {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .meeting-card.yellow { background: #ffeb99; }
+  .meeting-card.blue { background: #99ccff; }
+  .meeting-card.red { background: #ff9999; }
+  .meeting-card.green { background: #99ff99; }
+  

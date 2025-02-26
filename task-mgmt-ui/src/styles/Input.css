@@ -1,0 +1,31 @@
+.input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 5px;
+    transition: border 0.3s ease;
+  }
+  
+  .input-container input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .input-container input::placeholder {
+    color: #aaa;
+  }
+  
