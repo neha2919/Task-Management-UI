@@ -222,7 +222,7 @@ export const getRoles = async() => {
     const response = await fetch(`${API_URL}roles/all`,{
       method : 'GET',
       headers : {
-        Authorization : `Bearer ${token}`,
+        // Authorization : `Bearer ${token}`,
         "Content-Type" : "application/json"
       }
     });
